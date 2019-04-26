@@ -1,0 +1,100 @@
+
+body {
+  color: #FF3366;
+  background-color: #F6F7F8;
+}
+
+p {
+  font-family: 'Domine', serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #A9D2D5;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color:#A9D2D5;
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a {
+  color: #20A4F3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #1FA1F2;
+}
+
+i {
+  font-size: 34px
+  margin: 10px;
+  color: #1E1A1D;
+}
+
+.icons {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.card-white {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  padding: 80px;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.list-inline {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.btn_black{
+  background-color: #1E1A1D;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn_black:hover{
+  color: #FF3366;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card_white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card_white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card_white {
+    width: 300px;
+  }
+}
